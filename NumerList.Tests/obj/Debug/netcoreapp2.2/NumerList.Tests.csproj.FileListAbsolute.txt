@@ -1,0 +1,4 @@
+/Users/Guest/Desktop/Numers.Solution/NumerList.Tests/obj/Debug/netcoreapp2.2/NumerList.Tests.csprojAssemblyReference.cache
+/Users/Guest/Desktop/Numers.Solution/NumerList.Tests/obj/Debug/netcoreapp2.2/NumerList.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Numers.Solution/NumerList.Tests/obj/Debug/netcoreapp2.2/NumerList.Tests.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/Numers.Solution/NumerList.Tests/obj/Debug/netcoreapp2.2/NumerList.Tests.AssemblyInfo.cs

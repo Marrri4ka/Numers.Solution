@@ -1,0 +1,9 @@
+/Users/Guest/Desktop/Numers.Solution/NumersList/bin/Debug/netcoreapp2.2/NumersList.deps.json
+/Users/Guest/Desktop/Numers.Solution/NumersList/bin/Debug/netcoreapp2.2/NumersList.dll
+/Users/Guest/Desktop/Numers.Solution/NumersList/bin/Debug/netcoreapp2.2/NumersList.pdb
+/Users/Guest/Desktop/Numers.Solution/NumersList/obj/Debug/netcoreapp2.2/NumersList.csprojAssemblyReference.cache
+/Users/Guest/Desktop/Numers.Solution/NumersList/obj/Debug/netcoreapp2.2/NumersList.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Numers.Solution/NumersList/obj/Debug/netcoreapp2.2/NumersList.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/Numers.Solution/NumersList/obj/Debug/netcoreapp2.2/NumersList.AssemblyInfo.cs
+/Users/Guest/Desktop/Numers.Solution/NumersList/obj/Debug/netcoreapp2.2/NumersList.dll
+/Users/Guest/Desktop/Numers.Solution/NumersList/obj/Debug/netcoreapp2.2/NumersList.pdb
