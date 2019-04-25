@@ -17,7 +17,7 @@ namespace Items.Tests
       string result = newList.GetValue();
 
       // Assert
-      Assert.AreEqual (result, "twenty", "one");
+      Assert.AreEqual (result, "fifteen");
     }
   }
 }

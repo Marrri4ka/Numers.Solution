@@ -15,8 +15,10 @@ namespace NumbersList.Models
 
     public string GetValue()
     {
-      string result;
-      char[] myWord = _userNumber.ToString().ToCharArray();
+  string result ="";
+      // char[] myWord = _userNumber.ToString().ToCharArray();
+    char[] myWord = _userNumber.ToString().ToCharArray();
+
 
       Dictionary<int, string> dict = new Dictionary<int, string>();
       dict.Add(1,"one");
@@ -34,20 +36,24 @@ namespace NumbersList.Models
       dict.Add(13,"thirteen");
       dict.Add(14,"fourteen");
       dict.Add(15,"fifteen");
-      string res2 = dict[myWord[1]];
+
 
 
       Dictionary<int, string> dict1 = new Dictionary<int, string>();
-      dict.Add(20,"twenty");
-      dict.Add(30,"thirty");
-      dict.Add(40,"fourty");
-      dict.Add(50,"fifty");
-      dict.Add(60,"sixty");
-      string res1 = dict[myWord[0]];
-      result = res1 + res2;
+      dict1.Add(2,"twenty");
+      dict1.Add(3,"thirty");
+      dict1.Add(4,"fourty");
+      dict1.Add(5,"fifty");
+      dict1.Add(6,"sixty");
 
- return result;
+           string myString2 = dict1[myWord[0]];
+           string myString1 = dict[myWord[1]];
+           result = myString1 + myString2;
+
+
+return result;
 
     }
+
   }
 }
