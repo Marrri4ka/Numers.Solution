@@ -9,19 +9,18 @@ namespace NumbersList.Models
 
     public List ( int userNumber) // constructor
     {
-      _userNumber = int.Parse(userNumber);
+      _userNumber = userNumber;
     }
 
 
     public string GetValue()
     {
-      string result="";
-
+      string res="";
       if(_userNumber == 3)
       {
-      result = "three";
+        res="three";
       }
-      return result;
+      return res;
     }
   }
 }
