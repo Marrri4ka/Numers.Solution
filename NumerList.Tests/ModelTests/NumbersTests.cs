@@ -12,7 +12,7 @@ namespace Items.Tests
     public void GetValue_Test()
     {
       //Arrange
-      List newList = new List (21);
+      List newList = new List (15);
       // Act
       string result = newList.GetValue();
 
