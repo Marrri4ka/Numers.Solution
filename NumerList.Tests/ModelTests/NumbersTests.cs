@@ -12,12 +12,12 @@ namespace Items.Tests
     public void GetValue_Test()
     {
       //Arrange
-      List newList = new List (3);
+      List newList = new List (21);
       // Act
       string result = newList.GetValue();
 
       // Assert
-      Assert.AreEqual (result, "three");
+      Assert.AreEqual (result, "twenty", "one");
     }
   }
 }
