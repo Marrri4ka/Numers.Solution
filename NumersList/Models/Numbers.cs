@@ -15,8 +15,8 @@ namespace NumbersList.Models
 
     public string GetValue()
     {
-      string myString = _userNumber.ToString();
-     char[] newChar = myString.ToCharArray();
+
+      char[] newChar = _userNumber.ToString().ToCharArray();
 
 
       Dictionary<int, string> dict = new Dictionary<int, string>();
@@ -45,8 +45,8 @@ namespace NumbersList.Models
       dict1.Add(5,"fifty");
       dict1.Add(6,"sixty");
 // 56
-          int numOne = int.Parse(newChar[0]); //5
-          int numTwo = int. Parse (newChar[1]); //6
+          int numOne = int.Parse(newChar[0].ToString()); //5
+          int numTwo = int.Parse(newChar[1].ToString()); //6
 
 
           return  dict1[numOne] + dict[numTwo];
